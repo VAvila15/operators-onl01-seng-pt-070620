@@ -1,5 +1,7 @@
 def unsafe?(speed)
-  puts "unsafe?" if speed == speed < "40" && speed > "60"
+ if speed == speed < "40" && speed > "60"
+   puts "unsafe?"
+ end
 end
 
 
